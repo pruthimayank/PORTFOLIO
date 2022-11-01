@@ -1,0 +1,219 @@
+:root{
+    --1: #2B2A2A;
+    --2: #1C1C1C;
+    --3: #FEFCFB;
+    --4: #7A7A7A;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: var(--1);
+    color: var(--3);
+    margin: 0;
+}
+
+/* nav */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+nav p a{
+    text-decoration: none;
+    color: var(--3);
+    margin-left: 1rem;
+}
+nav p a:hover{
+    color: var(--4);
+}
+nav ul li{
+    display: inline;
+    margin: 2rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--3);
+}
+nav ul li a:hover{
+    color: var(--4);
+    transition: all 0.5s ease;
+}
+nav ul li .info{
+    display: inline-block;
+    color: var(--3); 
+    border: 1px solid var(--2); 
+    border-radius: 50%; 
+    padding: 0.5rem; 
+    width: 1rem; 
+    text-align: center;
+    transition: all 0.5s;
+}
+nav ul li .info:hover{
+    color: var(--1);
+    background-color: var(--4);
+}
+
+/* project-section */
+.project-section{
+    text-align: center;
+}
+.project-section p{
+    font-size: 6rem;
+}
+
+.section-odd{
+    background-color: var(--2);
+    border-radius: 2rem;
+    max-width: 96%;
+    margin: 2rem 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+.section-odd p{
+    color: var(--4);
+}
+.section-even{
+    border: 1px solid var(--4);
+    border-radius: 2rem;
+    max-width: 96%;
+    margin: 2rem 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+.section-even p{
+    color: var(--4);
+}
+
+.primary-bt{
+    text-decoration: none;
+    /* font-size: large; */
+    cursor: pointer;
+    background-color: var(--2);
+    padding: 0.7rem 1.5rem;
+    border: 1px solid var(--3);
+    color: var(--3);
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.primary-bt:hover{
+    color: var(--4);
+    background-color: var(--1);
+    transition: all 0.5s;
+}
+.secondary-bt{
+    text-decoration: none;
+    /* font-size: large; */
+    cursor: pointer;
+    background-color: var(--1);
+    padding: 0.7rem 1.5rem;
+    border: 1px solid var(--3);
+    color: var(--4);
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.secondary-bt:hover{
+    color: var(--3);
+    background-color: var(--4);
+    transition: all 0.5s;
+}
+
+
+/* footer */
+footer{
+    position: absolute;
+    width: 100%;
+    background-color: var(--2);
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    text-align: center;
+}
+footer ul{
+    margin: 2rem;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* extra */
+.sidebar{
+    display: none;
+    position: absolute;
+    top: 2%;
+    right: 1%;
+    width: 25px;
+    height: 20px;
+}
+.sidebar:hover{
+    cursor: pointer;
+}
+.sidebar-cross{
+    display: none;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    width: 32px;
+    height: 32px;
+}
+.sidebar-cross:hover{
+    cursor: pointer;
+}
+.active{
+    color: var(--4);
+    text-decoration: overline;
+}
+
+@media screen and (max-width:630px) {
+    /* nav */
+    nav ul{
+        position: absolute;
+        top: 1.5rem;
+        right: 1%;
+        background-color: var(--2);
+        border-radius: 1rem;
+        display: none;
+    }
+    nav ul li{
+        display: block;
+    }
+
+    /* extra */
+    .sidebar{
+        display: block;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .project-section p{
+        font-size: 4rem;
+    }
+    .mid-font{
+        font-size: 0.8rem;
+    }
+    .primary-bt{
+        display: block;
+    }
+    .secondary-bt{
+        display: block;
+    }
+}
+
+@media screen and (max-width:300px){
+    .primary-bt{
+       display: block; 
+    }
+    .secondary-bt{
+        display: block;
+    }
+    .mid-font{
+        font-size: 0.7rem;
+    }
+    .section-even h1{
+        font-size: 1.8rem;
+    }
+    .section-odd h1{
+        font-size: 1.8rem;
+    }
+}

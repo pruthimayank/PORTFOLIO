@@ -142,7 +142,7 @@ footer ul{
     display: none;
     position: absolute;
     top: 2%;
-    right: 2%;
+    right: 1rem;
     width: 25px;
     height: 20px;
 }

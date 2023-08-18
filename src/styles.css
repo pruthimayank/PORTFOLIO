@@ -1,0 +1,29 @@
+* {
+  --1: #2b2a2a;
+  --2: #1c1c1c;
+  --3: #7a7a7a;
+  --4: #72e6ff;
+}
+body {
+  background-color: var(--1);
+  color: white;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: white;
+}
+::-webkit-scrollbar-thumb {
+  background: #72e6ff;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: blue;
+}
+.section {
+  background-color: var(--2);
+  color: white;
+  width: 95%;
+  margin: auto;
+  border-radius: 1rem;
+}

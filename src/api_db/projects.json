@@ -1,0 +1,72 @@
+[
+  {
+    "id": 7,
+    "name": "OIBSIP",
+    "date": "July 2023",
+    "description": "Oasis Infobyte Virtual Internship in which I was to complete any one level either level 1 or 2 or 3. I successfully completed level 2 which had 4 tasks.",
+    "tech": "HTML5 / CSS3 / JavaScript / ReactJS",
+    "img": "https://user-images.githubusercontent.com/91726340/223084103-c04326c3-f9cc-437d-8a85-abb0865400ec.png",
+    "githubLink": "https://github.com/pruthimayank/OIBSIP",
+    "liveLink": "https://github.com/pruthimayank/OIBSIP"
+  },
+  {
+    "id": 6,
+    "name": "HealthEase",
+    "date": "May 2023",
+    "description": "HealthEase is a webapp that offers a wealth of information related to different types of diseases, their symptoms, signs, preventions and medications. It provides insure plans and online appointment options too. You can also have a quick health checkup using symptom checker.",
+    "tech": "HTML5 / CSS3 / Bootstrap / JSX / ReactJS (react routers,react hooks) / Rest APIs / JSON",
+    "img": "https://images.unsplash.com/photo-1585435557343-3b092031a831?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&ixid=MnwxfDB8MXxyYW5kb218MHx8aG9zcGl0YWx8fHx8fHwxNjkxMzg2MDI0&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400",
+    "githubLink": "https://github.com/pruthimayank/HealthEase",
+    "liveLink": "https://w8ct8s-3000.csb.app/"
+  },
+  {
+    "id": 5,
+    "name": "WebTools",
+    "date": "April 2023",
+    "description": "The web app in offers a suite of basic web tools, including APIs and web templates, that developers can utilize in their own web projects. These tools provide developers with the building blocks they need to create web apps, without requiring them to start from scratch. With these resources, developers can save time and efforts.",
+    "tech": "HTML5 / Bootstrap / ReactJS / Rest APIs / JSON",
+    "img": "https://images.unsplash.com/photo-1603015269169-225cb700e29a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&ixid=MnwxfDB8MXxyYW5kb218MHx8d2ViZGV2ZWxvcG1lbnR8fHx8fHwxNjkxMzg5MzIx&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400",
+    "githubLink": "https://github.com/pruthimayank/WebTools",
+    "liveLink": "https://webtools.pruthimayank12.repl.co/"
+  },
+  {
+    "id": 4,
+    "name": "G20NewsHub",
+    "date": "April 2023",
+    "description": "The G20 News Web App (G20NewsHub) provides users with the latest updates on events related to the G20 group. The app's primary feature is a newsfeed that displays headlines, summaries, and links to relevant news articles from various sources.",
+    "tech": "HTML5 / Bootstrap / ReactJS (useState, useEffect, props) / Rest APIs / JSON",
+    "img": "https://images.unsplash.com/photo-1579532536935-619928decd08?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&ixid=MnwxfDB8MXxyYW5kb218MHx8bmV3c3x8fHx8fDE2OTEzOTkxOTU&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400",
+    "githubLink": "https://github.com/pruthimayank/G20NewsHub",
+    "liveLink": "https://g20newshub.netlify.app/"
+  },
+  {
+    "id": 3,
+    "name": "TextUtil",
+    "date": "March 2023",
+    "description": "This app was created using ReactJS and Bootstrap, with the purpose of learning about these tools and compile them to make a text editing utility webapp. With a simple interface, the app allows users to convert the text to uppercase or lowercase, as well as copy the text to the clipboard",
+    "tech": "HTML5 / Bootstrap / ReactJS",
+    "img": "https://images.unsplash.com/photo-1529203915787-cc54fa70a428?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&ixid=MnwxfDB8MXxyYW5kb218MHx8YWxwaGFiZXRzfHx8fHx8MTY5MTM4OTU2Mw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400",
+    "githubLink": "https://github.com/pruthimayank/TextUtil",
+    "liveLink": "https://txt-util.netlify.app/"
+  },
+  {
+    "id": 2,
+    "name": "Vast Visuals",
+    "date": "October 2022",
+    "description": "Vast Visuals is a collection of beautiful photos or visuals that inspire.",
+    "tech": "HTML5 / CSS3 / JavaScript",
+    "img": "https://images.unsplash.com/photo-1580137189272-c9379f8864fd?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&ixid=MnwxfDB8MXxyYW5kb218MHx8bmF0dXJlfHx8fHx8MTY5MTQzMDE5Mg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400",
+    "githubLink": "https://github.com/pruthimayank/Vast-Visuals",
+    "liveLink": "https://vast-visuals.netlify.app/"
+  },
+  {
+    "id": 1,
+    "name": "neoG lvlZero",
+    "date": "October 2022",
+    "description": "NeoG Camp is a BootCamp launched by Tanay Pratap wherein he teaches the basics of front end development. The free course i.e. lvlZero really helps in getting more knowledge in the field of Web Development and it provides 14 projects including a portfolio site which you can build while learning. This course is best for those who are absolute beginner or for those who hadn't even written their first code yet.",
+    "tech": "Git / GitHub / VSCode / Hosting / Html5 / CSS3 / VanillaJS / ReactJS (Basics)",
+    "img": "https://images.unsplash.com/photo-1555066931-bf19f8fd1085?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&ixid=MnwxfDB8MXxyYW5kb218MHx8Y29kaW5nfHx8fHx8MTY5MTQyOTUyMw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400",
+    "githubLink": "https://github.com/pruthimayank/neoG-lvlZero",
+    "liveLink": "https://github.com/pruthimayank/neoG-lvlZero"
+  }
+]

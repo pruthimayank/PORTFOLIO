@@ -1,0 +1,12 @@
+.footer {
+  background-color: var(--2);
+  color: white;
+  width: 95%;
+  margin: auto;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+}

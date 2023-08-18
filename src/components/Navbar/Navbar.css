@@ -1,0 +1,33 @@
+.navbar {
+  position: sticky;
+  top: 20px;
+  z-index: 1;
+  backdrop-filter: blur(10px);
+}
+.navbar-brand:hover {
+  color: var(--4);
+  transition: 0.5s;
+}
+.nav-toggler {
+  border: 0;
+}
+.nav-resume-btn {
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  color: var(--3);
+}
+.nav-resume-btn:hover {
+  background-color: var(--1);
+  transition: 0.5s;
+  color: white;
+}
+.nav-justify-content {
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+  .nav-justify-content {
+    justify-content: space-evenly;
+  }
+}

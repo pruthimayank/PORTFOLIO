@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Direct Message",
+    "description": "ask your queries",
+    "img": "../img/contact1.png",
+    "details": "message me directly via",
+    "link1": "mailto:pruthimayank2003@gmail.com?subject=Subject: had a query about <add topic>&body=Hi Mayank, I am writing this mail <add message>.",
+    "link2": "https://www.linkedin.com/in/pruthimayank/"
+  },
+  {
+    "id": 2,
+    "name": "Schedule a meeting",
+    "description": "1 hour",
+    "img": "../img/contact2.png",
+    "details": "send meeting invite and add details via",
+    "link1": "mailto:pruthimayank2003@gmail.com?subject=Subject: want to schedule a meeting about <add topic>&body=Hi Mayank, lets schedule a meeting to discuss about <add topic> on <add date> at <add time>.",
+    "link2": "https://www.linkedin.com/in/pruthimayank/"
+  },
+  {
+    "id": 3,
+    "name": "Work Together",
+    "description": "Your invite to a transformative collaboration awaits.",
+    "img": "../img/contact3.png",
+    "details": "send invite and add project details via",
+    "link1": "mailto:pruthimayank2003@gmail.com?subject=Subject: lets work on the project <add topic>&body=Hi Mayank, I am writing this mail <add message and project details>.",
+    "link2": "https://www.linkedin.com/in/pruthimayank/"
+  }
+]

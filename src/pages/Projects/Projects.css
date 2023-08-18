@@ -1,0 +1,39 @@
+.projects-project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+  gap: 2rem;
+}
+.projects-project {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+/* .projects-project:hover {
+  transform: translateY(-0.3rem);
+  transition: all 0.5s;
+  cursor: pointer;
+} */
+.projects-project-btn {
+  color: var(--3);
+  text-align: center;
+  border: 1px solid var(--3);
+  border-radius: 10px;
+  padding: 6px;
+}
+.projects-project-btn:hover {
+  color: white;
+  background-color: var(--1);
+  transition: 1s;
+}
+
+@media screen and (max-width: 900px) {
+  .projects-project-container {
+    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .projects-project-container {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+}

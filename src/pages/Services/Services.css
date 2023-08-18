@@ -1,0 +1,38 @@
+.services-service-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+  gap: 2rem;
+}
+.services-service {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.services-service:hover {
+  transition: all 0.7s;
+  background-color: var(--1);
+}
+.services-service-btn {
+  color: var(--3);
+  text-align: center;
+  border: 1px solid var(--3);
+  border-radius: 10px;
+  padding: 6px;
+}
+.services-service-btn:hover {
+  color: white;
+  background-color: var(--1);
+  transition: 1s;
+}
+
+@media screen and (max-width: 900px) {
+  .services-service-container {
+    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .services-service-container {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+}

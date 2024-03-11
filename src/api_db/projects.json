@@ -5,7 +5,7 @@
     "date": "March 2024",
     "description": "ImageClassification is a webapp that is designed to classify images using TensorFlowJS. It utilizes machine learning pre-trained models to accurately identify objects within images and categorise it.",
     "tech": "HTML5 / CSS3 / JavaScript / ReactJS / TensorflowJS",
-    "img": "https://user-images.githubusercontent.com/91726340/223084103-c04326c3-f9cc-437d-8a85-abb0865400ec.png",
+    "img": "https://builtin.com/cdn-cgi/image/f=auto,quality=80,width=752,height=435/https://builtin.com/sites/www.builtin.com/files/styles/byline_image/public/2023-01/mobilenet.jpg",
     "githubLink": "https://github.com/pruthimayank/ImageClassification",
     "liveLink": "https://imgclassification.netlify.app"
   },

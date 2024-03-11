@@ -106,7 +106,7 @@ export default function Navbar() {
               </li>
               <li className="nav-item ">
                 <a
-                  href="https://drive.google.com/file/d/1dl1EkyoSMHXqOXl8ndJoLxsMLzp-LILs/view"
+                  href="https://drive.google.com/file/d/1Q5nEJXCbOC3qqOS0VmVAO1oz2QUQHcWT/view"
                   className="nav-link"
                   target="_blank"
                 >
